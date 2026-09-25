@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Onde Votar - Monteiro/PB | 29ª Zona Eleitoral</title>
+  <meta name="description" content="Consulte seu local de votação oficial informando o número da sua seção eleitoral na 29ª Zona Eleitoral em Monteiro/PB.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#ecfdf5',
+              100: '#d1fae5',
+              600: '#059669',
+              700: '#047857',
+              800: '#065f46',
+              900: '#064e3b',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @media print {
+      .no-print { display: none !important; }
+      body { background: white !important; color: black !important; }
+      .print-shadow-none { box-shadow: none !important; border: 1px solid #ccc !important; }
+    }
+  </style>
+</head>
+<body class="bg-stone-50 text-stone-900 font-sans antialiased min-h-screen flex flex-col selection:bg-emerald-100 selection:text-emerald-900">
+
+  <!-- TOAST NOTIFICATION -->
+  <div id="toast" class="fixed bottom-6 right-6 z-50 transform translate-y-20 opacity-0 transition-all duration-300 pointer-events-none flex items-center gap-3 bg-stone-900 text-white px-5 py-3.5 rounded-xl shadow-2xl border border-stone-700 max-w-sm">
+    <svg class="w-5 h-5 text-emerald-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+    </svg>
+    <span id="toast-message" class="text-sm font-medium">Informação copiada!</span>
+  </div>
+
+  <!-- CABEÇALHO INSTITUCIONAL -->
+  <header class="bg-gradient-to-b from-emerald-900 via-emerald-800 to-emerald-700 text-white pt-10 pb-16 px-4 sm:px-6 lg:px-8 border-b border-emerald-950/20 shadow-md">
+    <div class="max-w-5xl mx-auto text-center space-y-4">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-950/40 text-emerald-200 text-xs font-semibold tracking-wider uppercase backdrop-blur-sm border border-emerald-500/30">
+        <svg class="w-4 h-4 text-emerald-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+        </svg>
+        Justiça Eleitoral • Tribunal Regional Eleitoral da Paraíba
+      </div>
+
+      <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-white">
+        Onde Votar
+      </h1>
+      
+      <p class="text-emerald-100 text-base sm:text-lg max-w-2xl mx-auto font-normal">
+        29ª Zona Eleitoral — Consulte seu local de votação informando sua seção
+      </p>
+
+      <div class="flex flex-wrap items-center justify-center gap-4 pt-2 text-xs text-emerald-200 font-medium">
+        <span class="flex items-center gap-1.5">
+          <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+          17 Locais de Votação
+        </span>
+        <span>•</span>
+        <span class="flex items-center gap-1.5">
+          <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+          97 Seções Oficiais
+        </span>
+        <span>•</span>
+        <a 
+          href="https://wa.me/558396384229?text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20minha%20se%C3%A7%C3%A3o%20eleitoral%20na%2029%C2%AA%20Zona%20Eleitoral%20em%20Monteiro%2FPB." 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="inline-flex items-center gap-1.5 px-3 py-1 bg-emerald-600/80 hover:bg-emerald-500 text-white rounded-full transition shadow-sm border border-emerald-400/30 font-semibold"
+        >
+          <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.287.043.087.072.188.014.303-.058.116-.087.188-.173.289l-.26.303c-.087.087-.179.182-.077.357.101.174.449.741.964 1.2.662.589 1.22.771 1.393.858.173.087.275.072.376-.043.101-.116.433-.506.549-.679.116-.173.231-.144.39-.087s1.011.477 1.184.564.289.13.332.202c.043.072.043.419-.101.824z"></path>
+          </svg>
+          <span>WhatsApp do Cartório: +55 (83) 9638-4229</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTEÚDO PRINCIPAL -->
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 flex-1 w-full space-y-10 pb-16">
+
+    <!-- ÁREA DE CONSULTA RÁPIDA (CARD PRINCIPAL) -->
+    <section id="busca-secao" class="bg-white rounded-2xl shadow-xl border border-stone-200/80 p-6 sm:p-8 transition-all">
+      <div class="max-w-2xl mx-auto space-y-6">
+        <div class="text-center space-y-1">
+          <label for="input-secao" class="block text-lg font-bold text-stone-900">
+            Digite o número da sua seção eleitoral
+          </label>
+          <p class="text-sm text-stone-500">
+            O número da seção consta no seu título de eleitor físico ou no aplicativo e-Título.
+          </p>
+        </div>
+
+        <form id="form-busca" onsubmit="event.preventDefault(); buscarSecao();" class="flex flex-col sm:flex-row gap-3">
+          <div class="relative flex-1">
+            <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-stone-400">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+              </svg>
+            </div>
+            <input 
+              type="number" 
+              id="input-secao" 
+              placeholder="Ex: 16, 22, 60, 209..." 
+              min="1" 
+              max="999" 
+              class="w-full pl-11 pr-4 py-3.5 text-lg font-semibold bg-stone-50 border border-stone-300 rounded-xl focus:ring-2 focus:ring-emerald-600 focus:border-emerald-600 focus:bg-white outline-none transition"
+              autocomplete="off"
+              required
+            >
+          </div>
+          <button 
+            type="submit" 
+            class="px-7 py-3.5 bg-emerald-700 hover:bg-emerald-800 text-white font-semibold rounded-xl shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2 cursor-pointer active:scale-[0.98]"
+          >
+            <span>Consultar</span>
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+            </svg>
+          </button>
+        </form>
+
+        <!-- CONTAINER DE RESULTADO DINÂMICO -->
+        <div id="container-resultado" class="hidden transition-all duration-300">
+          <!-- RESULTADO SUCESSO -->
+          <div id="resultado-sucesso" class="hidden border border-emerald-200 bg-emerald-50/70 rounded-xl p-5 sm:p-6 space-y-4">
+            <div class="flex items-start justify-between gap-4 flex-wrap sm:flex-nowrap">
+              <div>
+                <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-800 bg-emerald-100 px-3 py-1 rounded-full border border-emerald-300 mb-2">
+                  <svg class="w-3.5 h-3.5 text-emerald-700" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                  </svg>
+                  Seção Encontrada: <span id="res-secao" class="font-bold"></span>
+                </span>
+                <h3 id="res-nome-local" class="text-xl sm:text-2xl font-extrabold text-stone-900 leading-snug"></h3>
+              </div>
+            </div>
+
+            <div class="bg-white/90 rounded-lg p-3.5 border border-emerald-100 text-sm space-y-1.5">
+              <p class="font-medium text-emerald-950 flex items-center gap-2">
+                <svg class="w-4 h-4 text-emerald-700 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                </svg>
+                <span id="res-jurisdicao" class="font-semibold text-emerald-900">Pertence à 29ª Zona Eleitoral de Monteiro/PB</span>
+              </p>
+              <p id="res-endereco" class="text-stone-600 pl-6 text-xs"></p>
+            </div>
+
+            <div class="flex flex-wrap items-center gap-3 pt-1">
+              <button 
+                onclick="copiarLocalFormatado()" 
+                class="px-4 py-2 bg-emerald-700 hover:bg-emerald-800 text-white text-sm font-semibold rounded-lg shadow-sm hover:shadow transition flex items-center gap-2 cursor-pointer active:scale-95"
+              >
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path>
+                </svg>
+                <span>Copiar Local</span>
+              </button>
+
+              <a 
+                id="link-maps-resultado" 
+                href="#" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="px-4 py-2 bg-stone-100 hover:bg-stone-200 text-stone-800 text-sm font-medium rounded-lg transition flex items-center gap-2"
+              >
+                <svg class="w-4 h-4 text-stone-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                </svg>
+                <span>Abrir no Google Maps</span>
+              </a>
+
+              <button 
+                onclick="limparResultado()" 
+                class="px-3 py-2 text-stone-500 hover:text-stone-700 text-xs font-medium ml-auto"
+              >
+                Limpar consulta
+              </button>
+            </div>
+          </div>
+
+          <!-- RESULTADO NÃO ENCONTRADO -->
+          <div id="resultado-erro" class="hidden border border-amber-300 bg-amber-50 rounded-xl p-5 sm:p-6 space-y-3">
+            <div class="flex items-center gap-3">
+              <div class="p-2 bg-amber-200/70 rounded-full text-amber-800">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
+                </svg>
+              </div>
+              <div>
+                <h4 class="text-base font-bold text-amber-900">Seção não localizada em Monteiro/PB</h4>
+                <p class="text-sm text-amber-800">A seção <strong id="erro-secao-num"></strong> não consta na lista da 29ª Zona Eleitoral de Monteiro/PB.</p>
+              </div>
+            </div>
+            <p class="text-xs text-stone-600 pl-11">
+              Verifique se digitou o número correto no seu título ou consulte a lista completa abaixo. Se sua seção pertence a outro município ou se houve transferência recente, fale com o Cartório Eleitoral da 29ª ZE pelo <a href="https://wa.me/558396384229" target="_blank" rel="noopener noreferrer" class="font-bold text-emerald-800 underline">WhatsApp +55 (83) 9638-4229</a> ou pelo telefone (83) 3512-1500.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INFORMAÇÕES DO CARTÓRIO ELEITORAL (CARD INFORMATIVO) -->
+    <section class="bg-white rounded-2xl shadow-sm border border-stone-200/80 p-6 sm:p-8">
+      <div class="flex flex-col md:flex-row items-start justify-between gap-6">
+        <div class="space-y-3 max-w-xl">
+          <div class="inline-flex items-center gap-2 text-xs font-bold text-emerald-800 bg-emerald-50 px-2.5 py-1 rounded-md border border-emerald-200 uppercase tracking-wider">
+            Atendimento Oficial ao Cidadão
+          </div>
+          <h2 class="text-2xl font-bold text-stone-900">Cartório Eleitoral — 29ª Zona Eleitoral</h2>
+          <p class="text-sm text-stone-600">
+            Dúvidas sobre transferência de domicílio eleitoral, justificativa, título cancelado ou certidões eleitorais? Contate o cartório responsável pelo município de Monteiro.
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-sm">
+            <div class="flex items-start gap-2.5">
+              <svg class="w-5 h-5 text-emerald-700 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+              </svg>
+              <div>
+                <span class="block text-xs font-semibold text-stone-500 uppercase tracking-wider">Endereço</span>
+                <span class="text-stone-800 font-medium">Rua Escrevente Maria Jansen, S/N, Monteiro/PB</span>
+                <span class="block text-xs text-stone-500">CEP: 58.500-000</span>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-2.5">
+              <svg class="w-5 h-5 text-emerald-700 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+              </svg>
+              <div>
+                <span class="block text-xs font-semibold text-stone-500 uppercase tracking-wider">E-mail</span>
+                <a href="mailto:zon29@tre-pb.jus.br" class="text-emerald-700 hover:text-emerald-800 font-medium underline underline-offset-2">
+                  zon29@tre-pb.jus.br
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TELEFONES & WHATSAPP DE CONTATO DIRETO -->
+        <div class="w-full md:w-96 shrink-0 bg-stone-50 rounded-2xl p-5 border border-stone-200 space-y-4">
+          
+          <!-- BOTÃO WHATSAPP OFICIAL -->
+          <div class="bg-emerald-50 rounded-xl p-4 border border-emerald-200 space-y-2">
+            <div class="flex items-center justify-between">
+              <span class="text-[11px] font-bold text-emerald-800 uppercase tracking-wider flex items-center gap-1.5">
+                <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                Atendimento Online
+              </span>
+              <span class="text-[11px] font-semibold text-emerald-700 bg-emerald-100/80 px-2 py-0.5 rounded-full">
+                WhatsApp Oficial
+              </span>
+            </div>
+
+            <a 
+              href="https://wa.me/558396384229?text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20minha%20se%C3%A7%C3%A3o%20eleitoral%20na%2029%C2%AA%20Zona%20Eleitoral%20em%20Monteiro%2FPB." 
+              target="_blank" 
+              rel="noopener noreferrer"
+              class="flex items-center justify-between gap-3 px-4 py-3 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl font-bold text-sm shadow-md hover:shadow-lg transition-all group active:scale-[0.98]"
+            >
+              <div class="flex items-center gap-2.5">
+                <svg class="w-6 h-6 text-white shrink-0" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.287.043.087.072.188.014.303-.058.116-.087.188-.173.289l-.26.303c-.087.087-.179.182-.077.357.101.174.449.741.964 1.2.662.589 1.22.771 1.393.858.173.087.275.072.376-.043.101-.116.433-.506.549-.679.116-.173.231-.144.39-.087s1.011.477 1.184.564.289.13.332.202c.043.072.043.419-.101.824z"></path>
+                </svg>
+                <div class="text-left">
+                  <span class="block text-[11px] text-emerald-100 font-normal leading-tight">Falar no WhatsApp</span>
+                  <span class="text-sm font-bold tracking-tight">+55 (83) 9638-4229</span>
+                </div>
+              </div>
+              <svg class="w-4 h-4 text-emerald-200 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+              </svg>
+            </a>
+
+            <p class="text-[11px] text-emerald-800 leading-tight">
+              Tire dúvidas sobre seções eleitorais, certidões ou regularização diretamente com a 29ª ZE.
+            </p>
+          </div>
+
+          <!-- TELEFONES FIXOS -->
+          <div class="space-y-2">
+            <span class="block text-xs font-bold text-stone-700 uppercase tracking-wider">Telefones Fixos</span>
+            <div class="flex flex-col gap-1.5">
+              <a href="tel:+558335121500" class="inline-flex items-center justify-between gap-3 px-3.5 py-2 bg-white hover:bg-emerald-50 hover:border-emerald-300 border border-stone-200 rounded-lg text-xs sm:text-sm font-medium text-stone-800 transition">
+                <span class="font-semibold text-stone-700">(83) 3512-1500</span>
+                <span class="text-xs text-emerald-700 font-normal">Ligar</span>
+              </a>
+              <a href="tel:+558335121529" class="inline-flex items-center justify-between gap-3 px-3.5 py-2 bg-white hover:bg-emerald-50 hover:border-emerald-300 border border-stone-200 rounded-lg text-xs sm:text-sm font-medium text-stone-800 transition">
+                <span class="font-semibold text-stone-700">(83) 3512-1529</span>
+                <span class="text-xs text-emerald-700 font-normal">Ligar</span>
+              </a>
+              <a href="tel:+558335121629" class="inline-flex items-center justify-between gap-3 px-3.5 py-2 bg-white hover:bg-emerald-50 hover:border-emerald-300 border border-stone-200 rounded-lg text-xs sm:text-sm font-medium text-stone-800 transition">
+                <span class="font-semibold text-stone-700">(83) 3512-1629</span>
+                <span class="text-xs text-emerald-700 font-normal">Ligar</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LISTAGEM COMPLETA E INTERATIVA DE LOCAIS E SEÇÕES -->
+    <section class="space-y-6">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-stone-200 pb-4">
+        <div>
+          <h2 class="text-2xl font-bold text-stone-900">Locais de Votação e Seções Oficiais</h2>
+          <p class="text-sm text-stone-500">
+            Clique em qualquer número de seção para consultar automaticamente o local
+          </p>
+        </div>
+
+        <!-- FILTRO DE BUSCA NA LISTA -->
+        <div class="w-full sm:w-72">
+          <input 
+            type="text" 
+            id="filtro-locais" 
+            placeholder="Filtrar por colégio ou seção..." 
+            oninput="filtrarCards()" 
+            class="w-full px-3.5 py-2 text-sm bg-white border border-stone-300 rounded-lg focus:ring-2 focus:ring-emerald-600 focus:border-emerald-600 outline-none"
+          >
+        </div>
+      </div>
+
+      <!-- GRID DOS 17 LOCAIS DE VOTAÇÃO -->
+      <div id="grid-locais" class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <!-- RENDERIZADO VIA JAVASCRIPT -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- RODAPÉ INSTITUCIONAL -->
+  <footer class="bg-stone-900 text-stone-300 py-10 px-4 sm:px-6 lg:px-8 border-t border-stone-800 mt-auto text-sm">
+    <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
+      <div class="space-y-1">
+        <p class="font-bold text-white text-base">Onde Votar - Monteiro/PB</p>
+        <p class="text-stone-400 text-xs">29ª Zona Eleitoral • Tribunal Regional Eleitoral da Paraíba (TRE-PB)</p>
+        <p class="text-stone-500 text-xs">Base de dados oficial de seções e locais de votação de Monteiro - PB</p>
+      </div>
+      <div class="flex flex-col sm:flex-row items-center gap-3 text-xs text-stone-400">
+        <a href="https://wa.me/558396384229" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 underline font-medium">
+          WhatsApp: +55 (83) 9638-4229
+        </a>
+        <span class="hidden sm:inline">•</span>
+        <span>Rua Escrevente Maria Jansen, S/N</span>
+        <span class="hidden sm:inline">•</span>
+        <span>CEP 58.500-000</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SCRIPT VANILLA JAVASCRIPT PURO -->
+  <script>
+    // BASE DE DADOS OFICIAL RIGOROSAMENTE ESTRUTURADA
+    const LOCAIS_VOTACAO = [
+      {
+        id: "uepb",
+        nome: "UNIVERSIDADE ESTADUAL DA PARAÍBA – UEPB – CAMPUS VI",
+        secoes: [16, 17, 18, 19, 20, 21, 30],
+        tipo: "Ensino Superior Estadual",
+        area: "Urbana",
+        endereco: "Campus Universitário VI, Monteiro - PB"
+      },
+      {
+        id: "lourdes",
+        nome: "COLÉGIO NOSSA SENHORA DE LOURDES",
+        secoes: [22, 27, 40, 41, 104, 110, 125, 129],
+        tipo: "Instituição de Ensino",
+        area: "Urbana",
+        endereco: "Centro, Monteiro - PB"
+      },
+      {
+        id: "socorro_aragao",
+        nome: "EMEF II PROFª MARIA DO SOCORRO ARAGÃO LIBERAL",
+        secoes: [15, 23, 42, 44, 45, 47, 48],
+        tipo: "Escola Municipal",
+        area: "Urbana",
+        endereco: "Monteiro - PB"
+      },
+      {
+        id: "ubs_esperanca",
+        nome: "UBS JOSÉ GENIVAL DE SOUZA (BOA ESPERANÇA)",
+        secoes: [60, 152],
+        tipo: "Unidade Básica de Saúde",
+        area: "Urbana",
+        endereco: "Bairro Boa Esperança, Monteiro - PB"
+      },
+      {
+        id: "posto_bom_nome",
+        nome: "POSTO DE SAÚDE PEDRO DOMINGOS DA SILVA (BOM NOME)",
+        secoes: [61],
+        tipo: "Posto de Saúde",
+        area: "Rural",
+        endereco: "Distrito / Comunidade Bom Nome, Monteiro - PB"
+      },
+      {
+        id: "cacimba_cima",
+        nome: "EMEIEF TOBIAS REMIGIO GOMES (CACIMBA DE CIMA)",
+        secoes: [62, 63, 185],
+        tipo: "Escola Municipal",
+        area: "Rural",
+        endereco: "Comunidade Cacimba de Cima, Monteiro - PB"
+      },
+      {
+        id: "ubs_julio_francisco",
+        nome: "UBS JÚLIO FRANCISCO DE SOUZA",
+        secoes: [71, 151],
+        tipo: "Unidade Básica de Saúde",
+        area: "Urbana",
+        endereco: "Monteiro - PB"
+      },
+      {
+        id: "creche_francisca",
+        nome: "CRECHE MUNICIPAL FRANCISCA MINEIRO SILVA",
+        secoes: [50, 51, 52, 126, 198],
+        tipo: "Creche Municipal",
+        area: "Urbana",
+        endereco: "Monteiro - PB"
+      },
+      {
+        id: "tiradentes",
+        nome: "E.M.E.F. TIRADENTES",
+        secoes: [26, 28, 32, 43, 46, 49, 53, 58],
+        tipo: "Escola Municipal",
+        area: "Urbana",
+        endereco: "Monteiro - PB"
+      },
+      {
+        id: "lauriceia",
+        nome: "E.M.E.F. PROF. MARIA LAURICEIA FREITAS",
+        secoes: [59, 66, 70, 72, 149, 150, 154],
+        tipo: "Escola Municipal",
+        area: "Urbana",
+        endereco: "Monteiro - PB"
+      },
+      {
+        id: "jose_pereira",
+        nome: "INSTITUTO EDUCACIONAL JOSÉ PEREIRA DO NASCIMENTO",
+        secoes: [55, 56, 57, 101, 106, 107, 182],
+        tipo: "Instituto Educacional",
+        area: "Urbana",
+        endereco: "Monteiro - PB"
+      },
+      {
+        id: "jose_leite",
+        nome: "E.E.C.I.T. JOSÉ LEITE DE SOUZA",
+        secoes: [64, 69, 77, 105, 109, 127, 128, 153, 172, 174, 179, 208, 209],
+        tipo: "Escola Estadual Técnica",
+        area: "Urbana",
+        endereco: "Monteiro - PB"
+      },
+      {
+        id: "ifpb",
+        nome: "INSTITUTO FEDERAL DA PARAÍBA – IFPB (CAMPUS MONTEIRO)",
+        secoes: [34, 35, 36, 37, 38, 54, 170, 176, 191, 196, 206, 207, 215],
+        tipo: "Instituto Federal de Educação",
+        area: "Urbana",
+        endereco: "Rodovia PB-264, Monteiro - PB"
+      },
+      {
+        id: "santa_filomena",
+        nome: "E.M.E.F. SANTA FILOMENA",
+        secoes: [67, 73, 138, 177, 188, 192],
+        tipo: "Escola Municipal",
+        area: "Urbana",
+        endereco: "Bairro Santa Filomena, Monteiro - PB"
+      },
+      {
+        id: "cadeia_publica",
+        nome: "CADEIA PÚBLICA DE MONTEIRO – PB",
+        secoes: [211],
+        tipo: "Seção Especial",
+        area: "Urbana",
+        endereco: "Monteiro - PB"
+      },
+      {
+        id: "queimadas",
+        nome: "E.M.E.F. LAURA LOPES FRAZÃO (QUEIMADAS)",
+        secoes: [212, 213],
+        tipo: "Escola Municipal",
+        area: "Rural",
+        endereco: "Comunidade Queimadas, Monteiro - PB"
+      },
+      {
+        id: "santa_catarina",
+        nome: "ESCOLA MUNICIPAL LAURA ALVES DE SOUSA (SANTA CATARINA)",
+        secoes: [65, 68, 74, 75, 76],
+        tipo: "Escola Municipal",
+        area: "Rural",
+        endereco: "Comunidade Santa Catarina, Monteiro - PB"
+      }
+    ];
+
+    let resultadoAtual = null;
+
+    // RENDERIZAR OS CARDS DOS LOCAIS
+    function renderizarCards(lista) {
+      const container = document.getElementById('grid-locais');
+      container.innerHTML = '';
+
+      if (lista.length === 0) {
+        container.innerHTML = `
+          <div class="col-span-full py-12 text-center text-stone-500 bg-white rounded-xl border border-stone-200">
+            Nenhum local de votação encontrado com o termo pesquisado.
+          </div>
+        `;
+        return;
+      }
+
+      lista.forEach(local => {
+        const card = document.createElement('div');
+        card.className = "bg-white rounded-xl border border-stone-200 shadow-sm hover:border-emerald-300 hover:shadow-md transition-all p-5 flex flex-col justify-between";
+        
+        const secoesHtml = local.secoes.map(sec => `
+          <button 
+            type="button"
+            onclick="selecionarSecao(${sec})" 
+            title="Clique para consultar a seção ${sec}"
+            class="px-2.5 py-1 text-xs font-semibold rounded-md bg-stone-100 hover:bg-emerald-600 hover:text-white text-stone-800 transition-colors cursor-pointer border border-stone-200 active:scale-95"
+          >
+            ${sec}
+          </button>
+        `).join('');
+
+        card.innerHTML = `
+          <div class="space-y-3">
+            <div class="flex items-start justify-between gap-2">
+              <span class="text-[11px] font-semibold tracking-wide uppercase px-2 py-0.5 rounded bg-stone-100 text-stone-600 border border-stone-200">
+                ${local.tipo} • ${local.area}
+              </span>
+              <span class="text-xs text-stone-400 font-medium">
+                ${local.secoes.length} ${local.secoes.length === 1 ? 'seção' : 'seções'}
+              </span>
+            </div>
+            
+            <h3 class="text-base font-bold text-stone-900 leading-snug">
+              ${local.nome}
+            </h3>
+
+            <p class="text-xs text-stone-500 flex items-center gap-1">
+              <svg class="w-3.5 h-3.5 text-stone-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+              </svg>
+              <span>${local.endereco}</span>
+            </p>
+          </div>
+
+          <div class="mt-4 pt-3 border-t border-stone-100">
+            <span class="block text-[11px] font-semibold text-stone-400 uppercase tracking-wider mb-2">
+              Seções Eleitorais deste local:
+            </span>
+            <div class="flex flex-wrap gap-1.5">
+              ${secoesHtml}
+            </div>
+          </div>
+        `;
+
+        container.appendChild(card);
+      });
+    }
+
+    // FILTRO DINÂMICO DOS CARDS
+    function filtrarCards() {
+      const termo = document.getElementById('filtro-locais').value.trim().toLowerCase();
+      if (!termo) {
+        renderizarCards(LOCAIS_VOTACAO);
+        return;
+      }
+
+      const filtrados = LOCAIS_VOTACAO.filter(loc => {
+        const bateNome = loc.nome.toLowerCase().includes(termo);
+        const bateEndereco = loc.endereco.toLowerCase().includes(termo);
+        const bateTipo = loc.tipo.toLowerCase().includes(termo);
+        const bateSecao = loc.secoes.some(s => s.toString() === termo || s.toString().includes(termo));
+        return bateNome || bateEndereco || bateTipo || bateSecao;
+      });
+
+      renderizarCards(filtrados);
+    }
+
+    // SELECIONAR SEÇÃO PELO CLIQUE NO CARD
+    function selecionarSecao(numSecao) {
+      document.getElementById('input-secao').value = numSecao;
+      buscarSecao(numSecao);
+      
+      // Rolar suavemente até o topo
+      document.getElementById('busca-secao').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    // FUNÇÃO PRINCIPAL DE BUSCA
+    function buscarSecao(secaoForcada) {
+      const input = document.getElementById('input-secao');
+      const val = secaoForcada !== undefined ? secaoForcada : parseInt(input.value, 10);
+
+      const containerResultado = document.getElementById('container-resultado');
+      const boxSucesso = document.getElementById('resultado-sucesso');
+      const boxErro = document.getElementById('resultado-erro');
+
+      if (!val || isNaN(val)) {
+        input.focus();
+        return;
+      }
+
+      const encontrado = LOCAIS_VOTACAO.find(l => l.secoes.includes(val));
+
+      containerResultado.classList.remove('hidden');
+
+      if (encontrado) {
+        resultadoAtual = { secao: val, local: encontrado };
+
+        boxSucesso.classList.remove('hidden');
+        boxErro.classList.add('hidden');
+
+        document.getElementById('res-secao').textContent = val;
+        document.getElementById('res-nome-local').textContent = encontrado.nome;
+        document.getElementById('res-endereco').textContent = `Endereço/Referência: ${encontrado.endereco} (${encontrado.tipo})`;
+
+        const queryMaps = encodeURIComponent(`${encontrado.nome}, Monteiro, PB`);
+        document.getElementById('link-maps-resultado').href = `https://www.google.com/maps/search/?api=1&query=${queryMaps}`;
+
+      } else {
+        resultadoAtual = null;
+        boxSucesso.classList.add('hidden');
+        boxErro.classList.remove('hidden');
+        document.getElementById('erro-secao-num').textContent = val;
+      }
+    }
+
+    // LIMPAR RESULTADO
+    function limparResultado() {
+      document.getElementById('input-secao').value = '';
+      document.getElementById('container-resultado').classList.add('hidden');
+      resultadoAtual = null;
+      document.getElementById('input-secao').focus();
+    }
+
+    // COPIAR LOCAL FORMATADO
+    function copiarLocalFormatado() {
+      if (!resultadoAtual) return;
+
+      const texto = `VOTAÇÃO - 29ª ZONA ELEITORAL MONTEIRO/PB
+Seção: ${resultadoAtual.secao}
+Local de Votação: ${resultadoAtual.local.nome}
+Endereço/Ref: ${resultadoAtual.local.endereco}
+Município: Monteiro - PB
+--------------------------------------------------
+Cartório da 29ª ZE:
+WhatsApp Oficial: +55 (83) 9638-4229
+Telefones: (83) 3512-1500 | E-mail: zon29@tre-pb.jus.br`;
+
+      navigator.clipboard.writeText(texto).then(() => {
+        mostrarToast(`Local copiado com sucesso! (Seção ${resultadoAtual.secao})`);
+      }).catch(() => {
+        mostrarToast('Erro ao copiar para a área de transferência.');
+      });
+    }
+
+    // EXIBIR TOAST FEEDBACK VISUAL ELEGANTE
+    function mostrarToast(msg) {
+      const toast = document.getElementById('toast');
+      const toastMsg = document.getElementById('toast-message');
+      toastMsg.textContent = msg;
+
+      toast.classList.remove('translate-y-20', 'opacity-0');
+      toast.classList.add('translate-y-0', 'opacity-100');
+
+      setTimeout(() => {
+        toast.classList.remove('translate-y-0', 'opacity-100');
+        toast.classList.add('translate-y-20', 'opacity-0');
+      }, 3200);
+    }
+
+    // INICIALIZAÇÃO NA CARGA
+    window.addEventListener('DOMContentLoaded', () => {
+      renderizarCards(LOCAIS_VOTACAO);
+    });
+  </script>
+</body>
+</html>
